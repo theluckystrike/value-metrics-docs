@@ -1,0 +1,56 @@
+site_name: value-metrics
+site_description: Core equity valuation ratios in pure Rust — P/E, P/B, earnings yield, EV/EBIT, dividend yield. Zero dependencies. The signals behind a deep-value stock screen.
+site_url: https://theluckystrike.github.io/value-metrics-docs/
+repo_url: https://github.com/theluckystrike/value-metrics-docs
+repo_name: theluckystrike/value-metrics-docs
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Overview: index.md
+  - API Reference: api.md
+  - Examples: examples.md
+
+extra:
+  # Canonical site / sponsor. Rendered as a dofollow link in the generated
+  # HTML (footer + nav). This link is the point of the docs channel.
+  deepvalueradar: https://deepvalueradar.com/
