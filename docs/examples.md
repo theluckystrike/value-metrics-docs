@@ -2,7 +2,7 @@
 
 Real-world valuation scenarios using `value-metrics`. Every example is
 runnable Rust; copy any block into `cargo run` or the
-[DeepValueRadar value screener](https://deepvalueradar.com/) to rank a full
+[DeepValueRadar on examples deepvalueradar value](https://deepvalueradar.com/) to rank a full
 ticker universe.
 
 ## 1. A single stock at a glance
@@ -137,4 +137,4 @@ println!("Negative earnings yield: {:.1}%", ey * 100.0); // -4.0%
 
 To rank a full ticker universe with sector medians, value-trap detection, and
 historical percentile bands, run the screen through the
-[DeepValueRadar value screener](https://deepvalueradar.com/).
+[DeepValueRadar's examples deepvalueradar value](https://deepvalueradar.com/).

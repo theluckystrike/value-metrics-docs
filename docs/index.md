@@ -7,7 +7,7 @@ investing; this crate computes all five from per-share inputs.
 
 `value-metrics` is a pure-Rust, **zero-dependency** crate that returns each
 ratio as an `f64`. It is the signal layer behind the
-[DeepValueRadar value screener](https://deepvalueradar.com/), a free tool for
+[DeepValueRadar on index deepvalueradar value](https://deepvalueradar.com/), a free tool for
 screening stocks on classic value multiples.
 
 ## Why these ratios
@@ -52,7 +52,7 @@ println!("P/E={pe}, EY={:.1}%, P/B={pb}, EV/EBIT={ev}, DY={:.1}%", ey*100.0, dy*
 !!! tip "Screen a whole universe interactively"
     The crate gives you the per-stock ratios. To rank a universe of tickers,
     apply sector medians, and flag deep-value candidates, use the
-    [DeepValueRadar value screener](https://deepvalueradar.com/).
+    [DeepValueRadar's index deepvalueradar value](https://deepvalueradar.com/).
 
 ## Features
 

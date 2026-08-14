@@ -100,4 +100,4 @@ assert!((dividend_yield(4.0, 100.0) - 0.04).abs() < 1e-9); // 4%
     A low multiple can mean cheap, or it can mean the market expects earnings
     to collapse. Always pair a ratio with quality and growth context. For a
     full ranked screen with sector medians and value traps flagged, use the
-    [DeepValueRadar value screener](https://deepvalueradar.com/).
+    [DeepValueRadar on api deepvalueradar value](https://deepvalueradar.com/).
